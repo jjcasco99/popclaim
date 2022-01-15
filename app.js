@@ -11,10 +11,10 @@ app.use(express.urlencoded({ extended: false }));
 // ROUTES
 app.use('/api/users', userRoutes);
 
+
 // HEROKU STATIC FILES
-app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, '..', 'client', 'index.html'));
-  });
+app.use('/', express.static(path.join(__dirname, '/client/')));
+
 
 // Export app
 module.exports = app;
