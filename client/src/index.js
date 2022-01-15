@@ -5,9 +5,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
 ReactDOM.render(
   <React.StrictMode>
-    <Auth0Provider domain='dev-p30v37m0.us.auth0.com' clientId='KZgtdUv2JTXgpsfRwWfX2ykCoBc4Oc0H' redirectUri={window.location.origin}>
+    <Auth0Provider domain={process.env.REACT_APP_DOMAIN} clientId={process.env.REACT_APP_CLIENT_ID} redirectUri={window.location.origin}>
       <App />
     </Auth0Provider>
   </React.StrictMode>,
