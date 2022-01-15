@@ -3,16 +3,11 @@ const mongoose = require('mongoose');
 
 // MONGOOSE SCHEMA
 const userSchema = new mongoose.Schema({
-  name: {
-    type: String,
-    required: [true, 'A tour must have a name'],
-    trim: true,
-  },
-  email: {
-    type: String,
-    required: [true, 'A tour must have a name'],
-    trim: true,
-  },
+  tenant: String,
+  connection: String,
+  email: String,
+  password:String,
+  debug: Boolean
 });
 
 // MONGOOSE MODEL
