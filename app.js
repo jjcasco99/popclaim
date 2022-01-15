@@ -13,7 +13,7 @@ app.use('/api/users', userRoutes);
 
 // HEROKU STATIC FILES
 app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, '..', 'build', 'client/public/index.html'));
+    res.sendFile(path.resolve(__dirname, '..', 'build', 'index.html'));
   });
 
 // Export app
