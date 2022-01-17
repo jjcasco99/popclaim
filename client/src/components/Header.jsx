@@ -1,11 +1,12 @@
 import React from 'react'
+import logo from '../assets/Group_237480.png'
 
 const Header = () => {
     return (
         <div className='headerContainer'>
             
             <div id='logo'>
-                <img src="" alt="" />
+                <img src={logo} alt="Imagen"/>
             </div>
 
             <div>
