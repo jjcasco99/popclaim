@@ -3,7 +3,8 @@ import { ResponsivePie } from '@nivo/pie';
 const KeywordsChart = ({ data2 }) => (
   <ResponsivePie
     data={data2}
-    margin={{ top: 50, right: 60, bottom: 80, left: 60 }}
+    margin={{ top: 0, right: 60, bottom: 80, left: 60 }}
+    valueFormat=" >-~%"
     startAngle={90}
     endAngle={-90}
     innerRadius={0.85}
