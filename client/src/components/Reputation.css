@@ -1,0 +1,17 @@
+.reputation__container {
+  background-color: #fcfcfc;
+  border-radius: 12px;
+  margin-bottom: 5rem;
+  width: 41.25rem;
+  filter: drop-shadow(0px 0px 16px rgba(26, 38, 151, 0.15));
+}
+
+.chart__title {
+  font-weight: 700;
+  padding: 2rem 0 0 4rem;
+}
+
+.chart__container {
+  height: 15.875rem;
+  margin: -3rem 0 0 2rem;
+}
