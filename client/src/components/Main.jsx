@@ -1,14 +1,16 @@
 import React from 'react'
-import Login from './Login'
-import Logout from './Logout'
-import Profile from './Profile'
+// import Login from './Login'
+// import Logout from './Logout'
+// import Profile from './Profile'
+import Header from './Header'
 
 const Main = () => {
     return (
         <div>
-            <Login />
+            <Header />
+            {/* <Login />
             <Logout />
-            <Profile />
+            <Profile /> */}
         </div>
     )
 }
