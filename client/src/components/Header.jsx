@@ -30,7 +30,7 @@ const Header = () => {
 
             <div className='overview'>
 
-                <h3><img src={overview} alt="" /> OVERVIEW</h3>
+                <h3><img src={overview} alt="" /><Link to="/"> OVERVIEW</Link></h3>
                 <div className='redes-sociales'>
                     <ul>
                         <li><input type="checkbox" /><img src={twitter} alt="" /> Twitter</li>
