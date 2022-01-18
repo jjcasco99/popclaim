@@ -2,6 +2,10 @@ body {
   background-color: #eff1f5;
 }
 
+.dashboard {
+  display: flex;
+}
+
 .flex-container {
   display: flex;
   gap: 2rem;
@@ -48,8 +52,4 @@ body {
   padding: 8px 24px;
   cursor: pointer;
   height: 40px;
-}
-
-.dashboard {
-  display: flex;
 }
