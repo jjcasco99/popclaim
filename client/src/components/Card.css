@@ -1,0 +1,77 @@
+ .mainContainer {
+    display: flex;
+    flex-direction: column; 
+    border: none;
+    border-left-color: #E34B4B;
+    border-radius: 14px;
+    margin: 0.6rem;
+    align-items: flex-start;
+    justify-content: left;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    padding: 0px;
+    box-shadow: 0px 0px 9px rgba(123, 192, 255, 0.2);
+    
+ }
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 3rem;
+}
+#headlight {
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0%;
+}
+
+.upperHeadlight {
+ 
+    display: flex; 
+    align-items: flex-start;
+}
+
+.logo {
+    width: 11%;
+    float: left;
+    margin-left: 1.5rem;
+    margin-top: 1.25rem;
+    display: flex; 
+    align-items: flex-start;
+}
+
+.twitText{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 5rem;
+    
+}
+
+.twitTextandbar{
+    display: flex;
+    flex-direction: column;
+}
+
+.verticalLine {
+    border-left: thick solid #E34B4B;
+  }
+
+.iconbar {
+    width: 100%;
+    display: flex;
+    padding: 1.1rem;
+    
+    justify-content: space-evenly;
+      
+}
+
+.rightalign {
+    float: right;
+
+}
+#negative {
+    color: #E34B4B;
+    float: right;
+}
