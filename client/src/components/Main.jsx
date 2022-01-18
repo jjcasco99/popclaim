@@ -1,13 +1,17 @@
 import React from 'react';
 import Login from './Login';
-import Logout from './Logout';
-import Profile from './Profile';
 import Dashboard from './Dashboard';
+import Informe from './Informe'
+import {Route, Routes} from 'react-router-dom';
 
 const Main = () => {
   return (
     <div>
-      <Dashboard />
+      <Routes>
+        <Route path="/" element={<Login/>} />
+        <Route path="/dashboard" element={<Dashboard />}/>
+        <Route path="/informe" element={<Informe />}/>
+      </Routes>
     </div>
   );
 };
