@@ -1,10 +1,10 @@
 .headerContainer {
   /* position:absolute; */
-  width: 100%;
+  width: 30%;
   height: 100%;
   left: 0px;
   top: 0px;
-  padding: 0 2rem;
+  padding: 0 2rem 8rem;
   background-color: #fcfcfc;
 }
 
@@ -78,6 +78,11 @@ input:checked {
   color: #3d536b;
   margin-top: 15px;
   list-style-type: none;
+  cursor: pointer;
+}
+a {
+  color: #3d536b;
+  text-decoration: none;
 }
 
 .user-profile h3 {
@@ -95,6 +100,7 @@ input:checked {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   margin-top: 60px;
+  cursor: pointer;
 }
 
 .options img {

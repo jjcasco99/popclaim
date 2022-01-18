@@ -53,3 +53,7 @@ input[type='submit'] {
   cursor: pointer;
   height: 40px;
 }
+
+.dashboard {
+  display: flex;
+}
