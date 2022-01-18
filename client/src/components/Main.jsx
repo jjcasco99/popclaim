@@ -3,15 +3,19 @@ import React from 'react'
 // import Logout from './Logout'
 // import Profile from './Profile'
 import Header from './Header'
+// import Dashboard from './Dashboard'
+import Informe from './Informe'
 
 const Main = () => {
     return (
-        <div>
+        <main>
             <Header />
+            {/* <Dashboard /> */}
+            <Informe />
             {/* <Login />
             <Logout />
             <Profile /> */}
-        </div>
+        </main>
     )
 }
 

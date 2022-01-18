@@ -1,0 +1,34 @@
+body {
+    background-color: #EFF1F5;
+}
+
+.cabecera-informe {
+    display: flex;
+    margin-left: 330px;
+    margin-top: 35px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+h2 img {
+    margin-bottom: 1.3px;
+}
+
+input[type=submit] {
+    font-family: 'Roboto', sans-serif;
+}
+
+#download {
+    margin-left: 425px;
+    background: #FFB321;
+    border: #FFB321;
+    border-radius: 20px;
+    padding: 8px 24px;
+    cursor: pointer;
+    height: 40px;
+
+}
