@@ -9,7 +9,15 @@ import Header from './Header';
 // Sustituir esta data por la petición axios:
 import tweets from '../utils/data/csvjson.json';
 
+import { useAuth0 } from '@auth0/auth0-react';
+
 const Dashboard = () => {
+  const { isAuthenticated, isLoading } = useAuth0();
+
+  if (isLoading) {
+    return <div>Loading...</div>;
+  }
+
   return (
     <div className="dashboard">
       <Header />
@@ -39,7 +47,7 @@ const Dashboard = () => {
           </section>
         </div>
       </div>
-    </div>
+    )
   );
 };
 
