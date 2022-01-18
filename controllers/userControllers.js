@@ -8,6 +8,7 @@ exports.getAllUsers = async (req, res) => {
   try {
     res.status(200).json({
       status: 'succes',
+      results: allUsers.length,
       data: { users: allUsers },
     });
   } catch (error) {
