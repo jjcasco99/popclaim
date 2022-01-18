@@ -28,7 +28,7 @@ p {
 
 .keywords__percentage {
   position: absolute;
-  top: 7rem;
+  top: 6.5rem;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
