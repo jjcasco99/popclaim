@@ -4,7 +4,6 @@ import arrow from '../assets/caret--right.png';
 import Reputation from './Reputation';
 import Keywords from './Keywords';
 import Cardlist from './Cardlist';
-import Report from './Report';
 
 const Dashboard = () => {
   return (
@@ -26,7 +25,6 @@ const Dashboard = () => {
       </section>
       <div className="flex-container">
         <section>
-          {/* <Report /> */}
           <Reputation />
           <Keywords />
         </section>
