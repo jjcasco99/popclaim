@@ -20,7 +20,7 @@ const Dashboard = () => {
             <h2 className="cabecera-año">
               Año/s 2022 <img src={arrow} alt="" />
             </h2>
-            <h2 className="cabecera.mes">
+            <h2 className="cabecera-mes">
               Mes/s Enero <img src={arrow} alt="" />
             </h2>
           </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Reputation from './Reputation';
 import './Report.css';
-import Card from './Card';
+import TweetReport from './TweetReport';
 
 const Report = () => {
   return (
@@ -37,7 +37,7 @@ const Report = () => {
         adipiscing dd elit. Nunc, pellentesq{' '}
       </p>
       <div className="cardtwit__container">
-        <Card />
+        <TweetReport />
       </div>
       <p className="rep__text">
         Lorem ipsum dolor sit amet, consectetur adipiscing dd elit. Nunc,

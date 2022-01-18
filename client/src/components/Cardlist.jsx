@@ -3,11 +3,9 @@ import Card from './Card';
 import './Cardlist.css';
 
 function Cardlist({ tweets }) {
-  console.log(tweets);
-
   // Paint tweets function
   const paintTweets = () => {
-    return tweets.map(tweet => <Card key={tweets.created_at} tweet={tweet} />);
+    return tweets.map(tweet => <Card key={tweet.created_at} tweet={tweet} />);
   };
 
   return (
