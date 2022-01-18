@@ -5,13 +5,13 @@ const Tweet = require('../models/tweetModel');
 // Get all tweets function
 exports.getAllTweets = async (req, res) => {
   try {
-    // Pagination
+    // PAGINATION
     const page = req.query.page * 1 || 1;
     const limit = req.query.limit * 1 || 10;
     const skip = (page - 1) * limit;
-
+    // Build query
     const query = Tweet.find().skip(skip).limit(limit);
-
+    // Check if there are no more pages
     if (req.query.page) {
       const numTweets = await Tweet.countDocuments();
       if (skip >= numTweets) throw new Error();

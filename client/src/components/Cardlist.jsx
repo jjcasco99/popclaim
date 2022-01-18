@@ -1,9 +1,15 @@
 import React from 'react';
 import Card from './Card';
 import './Cardlist.css';
-import search from '../assets/search.png';
 
-function Cardlist() {
+function Cardlist({ tweets }) {
+  console.log(tweets);
+
+  // Paint tweets function
+  const paintTweets = () => {
+    return tweets.map(tweet => <Card key={tweets.created_at} tweet={tweet} />);
+  };
+
   return (
     <section className="wrapper">
       <div className="wrapper-header">
@@ -15,24 +21,7 @@ function Cardlist() {
       </div>
 
       <div className="scroll">
-        <section>
-          <Card />
-        </section>
-        <section>
-          <Card />
-        </section>
-        <section>
-          <Card />
-        </section>
-        <section>
-          <Card />
-        </section>
-        <section>
-          <Card />
-        </section>
-        <section>
-          <Card />
-        </section>
+        <div>{paintTweets()}</div>
       </div>
     </section>
   );
