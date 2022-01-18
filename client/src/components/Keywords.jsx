@@ -12,6 +12,15 @@ const Keywords = () => {
           <h3 className="data__title">usuarios</h3>
           <div className="chart__container">
             <KeywordsChart data2={data2} />
+            <div className="keywords__percentage">
+              <p className="percentage__number keyword__title--positive">{`${
+                data2[1].value * 100
+              }%`}</p>
+              <div className="percentage__line"></div>
+              <p className="percentage__number keyword__title--negative">{`${
+                data2[0].value * 100
+              }%`}</p>
+            </div>
           </div>
           <div className="keywords__container">
             <div>

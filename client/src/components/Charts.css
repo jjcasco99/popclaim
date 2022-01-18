@@ -22,7 +22,23 @@ p {
 }
 
 .chart__container {
+  position: relative;
   height: 15.875rem;
+}
+
+.keywords__percentage {
+  position: absolute;
+  top: 7rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 1.2rem;
+}
+
+.percentage__line {
+  background-color: #eff1f5;
+  border: 0.8px solid #eff1f5;
+  height: 40px;
 }
 
 .flex__container {
