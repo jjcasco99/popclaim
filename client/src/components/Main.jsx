@@ -7,15 +7,20 @@ import { Route, Routes } from 'react-router-dom';
 import { useAuth0 } from '@auth0/auth0-react';
 
 const Main = () => {
-  const { isAunthenticated } = useAuth0();
-  
+  const { isAuthenticated } = useAuth0();
 
   return (
     <div>
-      <Dashboard />
-      {/* <Routes>
+      <Routes>
+      {isAuthenticated ? (
+         <Route path="/" element={<Dashboard />} />
+        )
+       : (
+        <Route path="/" element={<Login />} />
+        )}
+      
         <Route path="/informe" element={<Informe />} />
-      </Routes> */}
+      </Routes>
     </div>
   );
 };
