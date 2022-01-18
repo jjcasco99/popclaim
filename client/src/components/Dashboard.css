@@ -1,44 +1,55 @@
 body {
-    background-color: #EFF1F5;
+  background-color: #eff1f5;
+}
+
+.flex-container {
+  display: flex;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.cabecera-flex {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 .cabecera-dashboard {
-    display: flex;
-    margin-left: 330px;
-    margin-top: 35px;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
+  display: flex;
+  padding: 2rem 3rem;
+  margin-top: 2.2rem;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 h2 {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 h2 img {
-    margin-bottom: 1.3px;
+  margin-bottom: 1.3px;
 }
 
-input[type=submit] {
-    font-family: 'Roboto', sans-serif;
+input[type='submit'] {
+  font-family: 'Roboto', sans-serif;
 }
 
 #data {
-    margin-left: 180px;
-    background: #C5D6F9;
-    border: #C5D6F9;
-    border-radius: 20px;
-    padding: 8px 24px;
-    cursor: pointer;
-    height: 40px;
+  margin-left: 180px;
+  background: #c5d6f9;
+  border: #c5d6f9;
+  border-radius: 20px;
+  padding: 8px 24px;
+  cursor: pointer;
+  height: 40px;
 }
 
 #create-inform {
-    margin-left: 15px;
-    background: #FFB321;
-    border: #FFB321;
-    border-radius: 20px;
-    padding: 8px 24px;
-    cursor: pointer;
-    height: 40px;
-
+  margin-left: 15px;
+  background: #ffb321;
+  border: #ffb321;
+  border-radius: 20px;
+  padding: 8px 24px;
+  cursor: pointer;
+  height: 40px;
 }

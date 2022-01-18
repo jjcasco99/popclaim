@@ -53,6 +53,7 @@ p {
   border-radius: 10px;
   height: 28.313rem;
   width: 20.375rem;
+  padding-top: 1rem;
   box-shadow: 0px 0px 9px rgba(123, 192, 255, 0.2);
 }
 
@@ -74,6 +75,7 @@ p {
 
 .keyword__title {
   font-size: 0.85rem;
+  margin-bottom: 0.2rem;
 }
 
 .keyword__title--negative {
@@ -89,6 +91,7 @@ p {
 .keyword__text {
   color: #1e293b;
   font-size: 0.7rem;
+  margin-bottom: 1rem;
 }
 
 .highlights__container {
@@ -103,7 +106,7 @@ p {
 .card__container {
   box-shadow: 0px 0px 9px rgba(123, 192, 255, 0.2);
   border-radius: 12px;
-  padding-left: 1rem;
+  padding: 1rem 0 0 1rem;
   margin-bottom: 1rem;
   width: 100%;
 }
