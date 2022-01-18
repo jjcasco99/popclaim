@@ -43,7 +43,7 @@ function card() {
               </p>
               {/* </div> */}
               <div className="rightalign">
-                <p id="negative">NEGATIVO </p>
+                <p className="positive">POSITIVO &#8593;</p>
               </div>
             </div>
           </div>
