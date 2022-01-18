@@ -1,0 +1,44 @@
+body {
+    background-color: #EFF1F5;
+}
+
+.cabecera-dashboard {
+    display: flex;
+    margin-left: 330px;
+    margin-top: 35px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+h2 img {
+    margin-bottom: 1.3px;
+}
+
+input[type=submit] {
+    font-family: 'Roboto', sans-serif;
+}
+
+#data {
+    margin-left: 180px;
+    background: #C5D6F9;
+    border: #C5D6F9;
+    border-radius: 20px;
+    padding: 8px 24px;
+    cursor: pointer;
+    height: 40px;
+}
+
+#create-inform {
+    margin-left: 15px;
+    background: #FFB321;
+    border: #FFB321;
+    border-radius: 20px;
+    padding: 8px 24px;
+    cursor: pointer;
+    height: 40px;
+
+}
