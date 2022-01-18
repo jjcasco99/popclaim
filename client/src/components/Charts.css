@@ -18,6 +18,7 @@ p {
   font-size: 1.25rem;
   font-weight: 700;
   padding: 2rem 0 0 2rem;
+  margin-bottom: 2rem;
   text-transform: uppercase;
 }
 
@@ -28,7 +29,7 @@ p {
 
 .keywords__percentage {
   position: absolute;
-  top: 6.5rem;
+  top: 7rem;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;

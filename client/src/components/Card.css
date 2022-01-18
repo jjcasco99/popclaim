@@ -63,10 +63,10 @@ p {
   justify-content: space-between;
 }
 
-.rightalign {
-  float: right;
-}
-#negative {
+.negative {
   color: #e34b4b;
-  float: right;
+}
+
+.positive {
+  color: #33b294;
 }
