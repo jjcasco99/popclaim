@@ -1,11 +1,10 @@
 import React from 'react';
 import './Dashboard.css';
+import arrow from '../assets/caret--right.png';
 import Reputation from './Reputation';
 import Keywords from './Keywords';
 import Cardlist from './Cardlist';
 import Header from './Header'
-
-import arrow from '../assets/caret--right.png';
 
 const Dashboard = () => {
   return (
@@ -14,11 +13,11 @@ const Dashboard = () => {
       <div>
       <section className="cabecera-dashboard">
         <div className="cabecera-flex">
-          <h1>REPUTACIÓN BASH</h1>
-          <h2>
+          <h1 className="cabecera-titulo">REPUTACIÓN BASH</h1>
+          <h2 className="cabecera-año">
             Año/s 2022 <img src={arrow} alt="" />
           </h2>
-          <h2>
+          <h2 className="cabecera.mes">
             Mes/s Enero <img src={arrow} alt="" />
           </h2>
         </div>

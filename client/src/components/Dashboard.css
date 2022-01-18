@@ -22,16 +22,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-h2 {
+.cabecera-año {
   margin-left: 20px;
 }
 
-h2 img {
+.cabecera-mes img {
   margin-bottom: 1.3px;
-}
-
-input[type='submit'] {
-  font-family: 'Roboto', sans-serif;
 }
 
 #data {
