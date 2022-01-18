@@ -3,9 +3,7 @@ import './Card.css';
 import logo from '../assets/logo.png';
 import Vectorcomment from '../assets/Vectorcomment.png';
 import Vectorlove from '../assets/Vectorlove.png';
-import arrowdown from '../assets/arrowdown.png';
 import Vectorretweet from '../assets/Vectorretweet.png';
-// import {logo, Vectorcomment, Vectorlove, Vectorretweet} from ../assets/
 
 function card({ tweet }) {
   const {
