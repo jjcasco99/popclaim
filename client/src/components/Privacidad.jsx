@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Privacidad = () => {
     return <div className='aviso-legal'>
         <h1>POLÍTICA DE PRIVACIDAD</h1>
-        <p>Protección   de   datos   de   carácter   personal   según   el   RGPD  Popclaim,   en
+        <p className='aviso-legal-text'>Protección   de   datos   de   carácter   personal   según   el   RGPD  Popclaim,   en
             aplicación de la normativa vigente en materia de protección de datos de
             carácter   personal,   informa   que   los   datos   personales   que   se   recogen   a
             través de los formularios del Sitio web: www.popclaim.herokuapp.com, se

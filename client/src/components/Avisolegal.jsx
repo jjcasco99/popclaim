@@ -5,7 +5,7 @@ import './Avisolegal.css'
 const Avisolegal = () => {
     return <div className='aviso-legal'>
         <h1>AVISO LEGAL</h1>
-        <p>POPCLAIM, provisto con NIF/CIF B84666304, dirección C/ Gran Vía 57 -
+        <p className='aviso-legal-text'>POPCLAIM, provisto con NIF/CIF B84666304, dirección C/ Gran Vía 57 -
             Madrid (Madrid), no puede asumir ninguna responsabilidad derivada del
             uso incorrecto, inapropiado o ilícito de la información aparecida en las
             páginas de Internet de www.popclaim.herokuapp.com

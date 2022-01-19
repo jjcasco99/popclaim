@@ -9,7 +9,10 @@
     line-height: 1.5;
     text-align: center;
 }
+.aviso-legal-text {
+  margin-bottom: 5rem;
+}
 
 .btn-padding {
-  padding: 2rem 4rem;
+  padding: 1rem 3rem;
 }
