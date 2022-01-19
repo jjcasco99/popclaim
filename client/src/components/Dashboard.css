@@ -23,6 +23,7 @@ body {
   padding: 2rem;
   margin: 1.5rem 0;
   align-items: center;
+  justify-content: space-between;
 }
 
 .cabecera-año {
@@ -41,6 +42,11 @@ body {
   padding: 8px 24px;
   cursor: pointer;
   height: 40px;
+  
+}
+
+#data:hover {
+  box-shadow:  inset 0 0 20px 10px #6d4c1062
 }
 
 #create-inform {
@@ -51,4 +57,8 @@ body {
   padding: 8px 24px;
   cursor: pointer;
   height: 40px;
+}
+
+#create-inform:hover {
+  box-shadow:  inset 0 0 20px 10px #6d4c1062
 }

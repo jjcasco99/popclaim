@@ -18,13 +18,14 @@ const Informe = () => {
         <div>
           <div className="cabecera-informe">
             <div className="cabecera-flex">
-              <h1>INFORME BASH</h1>
-              <h2>
-                Año/s 2022 <img src={arrow} alt="" />
-              </h2>
-              <h2>
-                Mes/s Enero <img src={arrow} alt="" />
-              </h2>
+              <div className='cabecera-flex2'>
+                <h1>INFORME BASH</h1>
+                <h2>
+                  Año/s 2022 <img src={arrow} alt="" />
+                </h2>
+                <h2>
+                  Mes/s Enero <img src={arrow} alt="" />
+                </h2></div>
               <input type="submit" value="Descargar" id="download" />
             </div>
           </div>

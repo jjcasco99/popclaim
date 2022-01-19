@@ -55,8 +55,8 @@ ul input {
   margin: 0px 16px;
 }
 
-input:checked {
-  background-color: aqua;
+.checkbox-background:checked {
+  background-image: url('../assets/checbox.png');
 }
 
 .informs h3 {
