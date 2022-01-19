@@ -47,7 +47,7 @@ const Dashboard = () => {
           </section>
         </div>
       </div>
-    )
+    </div>
   );
 };
 

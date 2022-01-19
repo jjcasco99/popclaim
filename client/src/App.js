@@ -4,24 +4,24 @@ import Main from './components/Main';
 import Login from './components/Login';
 import { useAuth0 } from '@auth0/auth0-react';
 
-import {BrowserRouter} from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
-  const { isAunthenticated } = useAuth0();
+  const { isAuthenticated } = useAuth0();
 
   return (
     <div className="App">
       <BrowserRouter>
-      <div>
-        {isAunthenticated ? (
-          <>
-            <Main />
-          </>
-          ):(
-            <Login/>
+        <div>
+          {isAuthenticated ? 'si' : 'no'}
+          {isAuthenticated ? (
+            <>
+              <Main />
+            </>
+          ) : (
+            <Login />
           )}
-        <Main />
-      </div>
+        </div>
       </BrowserRouter>
     </div>
   );
