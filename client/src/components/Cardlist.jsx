@@ -10,7 +10,7 @@ function Cardlist() {
     const getTweets = async () => {
       try {
         const resp = await axios.get(
-          `http://localhost:5000/api/tweets?page=${
+          `https://popclaim.herokuapp.com/api/tweets?page=${
             Math.floor(Math.random() * 10) + 1
           }`
         );
