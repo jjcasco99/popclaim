@@ -1,0 +1,36 @@
+.rep__container {
+  background-color: #fcfcfc;
+  border-radius: 14px;
+  padding: 5rem;
+  filter: drop-shadow(0px 0px 16px rgba(26, 38, 151, 0.15));
+  height: 59rem;
+  margin: 0 2rem;
+  /* width: 42rem; */
+  overflow: scroll;
+}
+
+.rep__title {
+  margin: 0;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.rep__subtitle {
+  margin-bottom: 2rem;
+}
+
+.rep__text {
+  font-size: 0.9rem;
+  line-height: 1.8;
+  margin-bottom: 3rem;
+}
+
+.rep__text2 {
+  font-size: 0.9rem;
+  line-height: 1.8;
+  margin: 4rem 0 3rem;
+}
+
+.cardtwit__container {
+  margin-bottom: 2rem;
+}

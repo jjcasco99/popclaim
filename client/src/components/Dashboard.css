@@ -1,0 +1,54 @@
+body {
+  background-color: #eff1f5;
+}
+
+.dashboard {
+  display: flex;
+}
+
+.flex-container {
+  display: flex;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.cabecera-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.cabecera-dashboard {
+  display: flex;
+  padding: 2rem;
+  margin: 1.5rem 0;
+  align-items: center;
+}
+
+.cabecera-año {
+  margin-left: 20px;
+}
+
+.cabecera-mes img {
+  margin-bottom: 1.3px;
+}
+
+#data {
+  margin-left: 180px;
+  background: #c5d6f9;
+  border: #c5d6f9;
+  border-radius: 20px;
+  padding: 8px 24px;
+  cursor: pointer;
+  height: 40px;
+}
+
+#create-inform {
+  margin-left: 15px;
+  background: #ffb321;
+  border: #ffb321;
+  border-radius: 20px;
+  padding: 8px 24px;
+  cursor: pointer;
+  height: 40px;
+}

@@ -1,0 +1,30 @@
+/*-------------------- GOOGLE FONTS --------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/*-------------------- SCROLLBAR STYLES --------------------*/
+/* Works on Firefox */
+* {
+  scrollbar-color: #eff1f5 white;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #eff1f5;
+  border-radius: 20px;
+}
+
+/*-------------------- GENERAL STYLES --------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eff1f5;
+  font-family: 'Roboto', sans-serif;
+}

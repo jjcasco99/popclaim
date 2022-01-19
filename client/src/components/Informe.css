@@ -1,0 +1,26 @@
+.cabecera-informe {
+  padding: 2rem 8rem 2rem 2rem;
+  margin: 1.5rem 0;
+}
+
+.cabecera-informe2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#download {
+  background: #ffb321;
+  border: #ffb321;
+  border-radius: 20px;
+  padding: 8px 24px;
+  cursor: pointer;
+  height: 40px;
+}
+
+.global {
+  display: flex;
+}
+
+.report-flex {
+  display: flex;
+}

@@ -1,0 +1,51 @@
+li {
+  list-style: none;
+}
+
+.outerbox {
+  background: white;
+  filter: drop-shadow(0px 0px 16px rgba(26, 38, 151, 0.15));
+  border-radius: 12px;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem 1rem;
+  width: 20rem;
+}
+
+.checkbox {
+  left: 6.25%;
+  right: 6.25%;
+  top: 6.25%;
+  bottom: 6.25%;
+  background-color: #1e293b;
+  color: #3d536b;
+  border: 1px solid #3d536b;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.hovergrey {
+  padding-right: 0.8rem;
+  padding-left: 3rem;
+  line-height: 1.4rem;
+}
+
+.hovergrey:hover {
+  background-color: #eff1f5;
+  width: fit-content;
+  border-radius: 20px;
+}
+
+.headlight-title {
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.generar {
+  background: #c5d6f9;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem;
+  margin-top: 2rem;
+  width: 100%;
+}
