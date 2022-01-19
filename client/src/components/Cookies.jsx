@@ -90,7 +90,7 @@ const Cookies = () => {
         </ul>
         <p>Si tiene dudas sobre esta política de cookies, puede contactar con Popclaim
             en info@popclaim.com</p>
-        <Link to="/" className='login-btn'>Volver</Link>
+        <Link to="/" className='login-btn btn-padding'>Volver</Link>
     </div>;
 };
 

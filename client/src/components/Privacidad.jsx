@@ -169,7 +169,7 @@ const Privacidad = () => {
             En todo caso, el usuario, tras acreditar su identidad, podrá solicitar que
             no se le haga llegar más información comercial a través de los canales de
             Atención al Cliente.</p>
-            <Link to="/" className='login-btn'>Volver</Link>
+            <Link to="/" className='login-btn btn-padding'>Volver</Link>
     </div>;
 };
 

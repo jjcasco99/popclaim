@@ -198,7 +198,7 @@ const Login = () => {
               &copy; 2022 Popclaim Inc. Todos los derechos reservados.
             </p>
             <p className="legal-text">
-              <span><Link to="/aviso-legal" target="_blank">Aviso legal</Link> </span> | <span><Link to="/privacidad" target="_blank">Privacidad</Link> </span> | <span><Link to="/cookies" target="_blank">Uso de cookies</Link> </span> | Mapa del sitio
+              <span><Link to="/aviso-legal">Aviso legal</Link> </span> | <span><Link to="/privacidad" >Privacidad</Link> </span> | <span><Link to="/cookies">Uso de cookies</Link> </span> | Mapa del sitio
               Accesibilidad
             </p>
           </div>

@@ -43,7 +43,7 @@ const Avisolegal = () => {
             rectificación, cancelación y oposición de sus datos de carácter personal,
             manera gratuita mediante email a info@popclaim.com o en la dirección
             C/ Gran Vía 57 - Madrid (Madrid). </p>
-            <Link to="/" className='login-btn'>Volver</Link>
+            <Link to="/" className='login-btn btn-padding'>Volver</Link>
     </div>;
 };
 
