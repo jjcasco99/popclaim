@@ -1,5 +1,8 @@
 import React from 'react';
 import { useAuth0 } from '@auth0/auth0-react';
+import CookieConsent from "react-cookie-consent";
+import { Link } from 'react-router-dom';
+
 import './Login.css';
 import logo from '../assets/logo_popclaim.png';
 import img1 from '../assets/rafiki.png';
@@ -11,6 +14,7 @@ import dashboard1 from '../assets/Dashboard_ 1.png';
 import social from '../assets/social-icons.png';
 import world from '../assets/world.png';
 import arrow from '../assets/arrow2.png';
+
 
 const Login = () => {
   const { loginWithRedirect } = useAuth0();
@@ -49,7 +53,7 @@ const Login = () => {
             tener un mayor conocimiento de lo que opina la comunidad de usuarios
             sobre tus productos o servicios
           </p>
-          <button className="login-btn login-btn--section1">
+          <button className="login-btn login-btn--section1" onClick={() => loginWithRedirect()}>
             Comienza tu prueba gratuita de 10 días
           </button>
         </div>
@@ -65,7 +69,7 @@ const Login = () => {
             RRSS? Aprende a conocer a tus usuarios, saber lo que dicen de ti a
             través de una herramienta intuitiva.
           </p>
-          <button className="login-btn login-btn--section1">
+          <button className="login-btn login-btn--section1" onClick={() => loginWithRedirect()}>
             Registrate en popclaim
           </button>
         </div>
@@ -194,7 +198,7 @@ const Login = () => {
               &copy; 2022 Popclaim Inc. Todos los derechos reservados.
             </p>
             <p className="legal-text">
-              Centro legal | Centro de confianza | Privacidad | Mapa del sitio |
+              <span><Link to="/aviso-legal" target="_blank">Aviso legal</Link> </span> | <span><Link to="/privacidad" target="_blank">Privacidad</Link> </span> | <span><Link to="/cookies" target="_blank">Uso de cookies</Link> </span> | Mapa del sitio
               Accesibilidad
             </p>
           </div>
@@ -203,6 +207,16 @@ const Login = () => {
           </div>
         </div>
       </footer>
+      <CookieConsent
+        location="bottom"
+        buttonText="Aceptar Cookies"
+        cookieName="Popclaim cookies"
+        style={{ color: "#ffffff" }}
+        buttonStyle={{ backgroundColor: "#ffb321", fontSize: "13px", border: "none", borderRadius: "10px" }}
+        expires={150}
+      >
+        Este sitio web utiliza cookies para su correcto funcionamiento
+      </CookieConsent>
     </div>
   );
 };

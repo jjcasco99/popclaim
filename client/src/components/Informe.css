@@ -8,6 +8,11 @@
   justify-content: space-between;
 }
 
+.cabecera-flex2 {
+  display: flex;
+  gap: 5rem;
+}
+
 #download {
   background: #ffb321;
   border: #ffb321;

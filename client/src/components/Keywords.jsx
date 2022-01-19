@@ -26,37 +26,37 @@ const Keywords = () => {
             <div>
               <div>
                 <p className="keyword__title keyword__title--positive">
-                  materiales
+                  Materiales
                 </p>
                 <p className="keyword__text">5.603 menciones</p>
               </div>
               <div>
                 <p className="keyword__title keyword__title--positive">
-                  servicio
+                  Servicio
                 </p>
                 <p className="keyword__text">2.322 menciones</p>
               </div>
               <div>
                 <p className="keyword__title keyword__title--positive">
-                  precio
+                  Precio
                 </p>
                 <p className="keyword__text">1.232 menciones</p>
               </div>
               <div>
                 <p className="keyword__title keyword__title--positive">
-                  servicio
+                  Atención
                 </p>
                 <p className="keyword__text">4.672 menciones</p>
               </div>
               <div>
                 <p className="keyword__title keyword__title--positive">
-                  precio
+                  WiFi
                 </p>
                 <p className="keyword__text">2.547 menciones</p>
               </div>
               <div>
                 <p className="keyword__title keyword__title--positive">
-                  materiales
+                  Pantalla
                 </p>
                 <p className="keyword__text">5.603 menciones</p>
               </div>
@@ -68,31 +68,31 @@ const Keywords = () => {
               </div>
               <div>
                 <p className="keyword__title keyword__title--negative">
-                  estética
+                  Estética
                 </p>
                 <p className="keyword__text">5.503 menciones</p>
               </div>
               <div>
                 <p className="keyword__title keyword__title--negative">
-                  cámara
+                  Cámara
                 </p>
                 <p className="keyword__text">1.220 menciones</p>
               </div>
               <div>
                 <p className="keyword__title keyword__title--negative">
-                  estética
+                  Cristal
                 </p>
                 <p className="keyword__text">4.307 menciones</p>
               </div>
               <div>
                 <p className="keyword__title keyword__title--negative">
-                  cámara
+                  Botones
                 </p>
                 <p className="keyword__text">3.123 menciones</p>
               </div>
               <div>
                 <p className="keyword__title keyword__title--negative">
-                  estética
+                  Sonido
                 </p>
                 <p className="keyword__text">1.003 menciones</p>
               </div>
@@ -104,13 +104,13 @@ const Keywords = () => {
           <div className="highlights__container">
             <div className="card__container">
               <p className="keyword__title keyword__title--positive">
-                tecnología &#8593;
+                Tecnología &#8593;
               </p>
               <p className="keyword__text">5.000 menciones / 3.500 positivas</p>
             </div>
             <div className="card__container">
               <p className="keyword__title keyword__title--positive">
-                BASH &#8593;
+                Samsung &#8593;
               </p>
               <p className="keyword__text">5.000 menciones / 3.500 positivas</p>
             </div>
@@ -122,7 +122,7 @@ const Keywords = () => {
             </div>
             <div className="card__container">
               <p className="keyword__title keyword__title--positive">
-                precio &#8593;
+                Precio &#8593;
               </p>
               <p className="keyword__text">5.000 menciones / 3.500 positivas</p>
             </div>
@@ -134,19 +134,19 @@ const Keywords = () => {
             </div>
             <div className="card__container">
               <p className="keyword__title keyword__title--positive">
-                pantalla &#8593;
+                Pantalla &#8593;
               </p>
               <p className="keyword__text">5.000 menciones / 3.500 positivas</p>
             </div>
             <div className="card__container">
               <p className="keyword__title keyword__title--positive">
-                batería &#8593;
+                Batería &#8593;
               </p>
               <p className="keyword__text">5.000 menciones / 3.500 positivas</p>
             </div>
             <div className="card__container">
               <p className="keyword__title keyword__title--negative">
-                cámara &#8595;
+                Diseño &#8595;
               </p>
               <p className="keyword__text">5.000 menciones / 3.500 positivas</p>
             </div>

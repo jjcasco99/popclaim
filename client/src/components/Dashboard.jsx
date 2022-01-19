@@ -5,6 +5,7 @@ import Reputation from './Reputation';
 import Keywords from './Keywords';
 import Cardlist from './Cardlist';
 import Header from './Header';
+import { Link } from 'react-router-dom';
 
 import { useAuth0 } from '@auth0/auth0-react';
 
@@ -22,7 +23,7 @@ const Dashboard = () => {
         <div>
           <section className="cabecera-dashboard">
             <div className="cabecera-flex">
-              <h1 className="cabecera-titulo">REPUTACIÓN BASH</h1>
+              <h1 className="cabecera-titulo">REPUTACIÓN SAMSUNG</h1>
               <h2 className="cabecera-año">
                 Año/s 2022 <img src={arrow} alt="" />
               </h2>
@@ -32,7 +33,7 @@ const Dashboard = () => {
             </div>
             <div className="cabecera-flex">
               <input type="submit" value="Actualizar datos" id="data" />
-              <input type="submit" value="Generar informe" id="create-inform" />
+              <Link to="/informe"><input type="submit" value="Generar informe" id="create-inform" /></Link>
             </div>
           </section>
           <div className="flex-container">

@@ -26,7 +26,7 @@ const Header = () => {
 
       <div id="company">
         <h3>
-          BASH <img src={down_arrow} alt="" />
+          SAMSUNG <img src={down_arrow} alt="" />
         </h3>
       </div>
 
@@ -38,7 +38,7 @@ const Header = () => {
         <div className="redes-sociales">
           <ul>
             <li>
-              <input type="checkbox" />
+              <input type="checkbox" checked className='checkbox-background' />
               <img src={twitter} alt="" /> Twitter
             </li>
             <li>
