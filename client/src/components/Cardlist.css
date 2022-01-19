@@ -9,7 +9,7 @@
 .scroll {
   height: 50rem;
   overflow: scroll;
-  scrollbar-base-color: #0fccad;
+  padding-top: 1rem;
 }
 
 /* .scroll:hover {
