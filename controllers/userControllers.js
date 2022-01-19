@@ -8,6 +8,7 @@ exports.getAllUsers = async (req, res) => {
   try {
     res.status(200).json({
       status: 'succes',
+      results: allUsers.length,
       data: { users: allUsers },
     });
   } catch (error) {
@@ -21,9 +22,10 @@ exports.getAllUsers = async (req, res) => {
 // Get user by id function
 exports.getUser = async (req, res) => {
   try {
+    const getUser = await User.findById(req.params.id);
     res.status(200).json({
       status: 'succes',
-      data: { user: '<GET USER BY ID>' },
+      data: { user: getUser },
     });
   } catch (error) {
     res.status(404).json({
@@ -52,9 +54,10 @@ exports.createUser = async (req, res) => {
 // Udpate user by id function
 exports.updateUser = async (req, res) => {
   try {
+    const updateUser = User.findByIdAndUpdate(req.params.id, req.body);
     res.status(201).json({
       status: 'succes',
-      data: { user: '<UPDATE USER>' },
+      data: { user: updateUser },
     });
   } catch (error) {
     res.status(404).json({
@@ -67,9 +70,10 @@ exports.updateUser = async (req, res) => {
 // Delete user by id function
 exports.deleteUser = async (req, res) => {
   try {
+    await User.findByIdAndDelete(req.params.id);
     res.status(201).json({
       status: 'succes',
-      data: { user: '<DELETE USER>' },
+      data: null,
     });
   } catch (error) {
     res.status(404).json({

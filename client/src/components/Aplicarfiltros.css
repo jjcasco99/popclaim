@@ -1,0 +1,58 @@
+.bodycontainer {
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  box-shadow: 0px 0px 9px rgba(123, 192, 255, 0.4);
+  border-radius: 12px;
+}
+
+.showcomments {
+  text-align: left;
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+}
+.threebuttons {
+  display: flex;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+.masinfluyente {
+  background: #eff1f5;
+  border-radius: 5px;
+
+  margin: 0.5rem;
+}
+
+.masinfluyente:hover {
+  background: #3d536b;
+  color: whitesmoke;
+}
+
+.butonone {
+  background: #eff1f5;
+  border-radius: 5px;
+  width: 32%;
+  margin: 0.5rem;
+}
+
+.butonone:hover {
+  background: #3d536b;
+  color: whitesmoke;
+}
+
+.butontwo {
+  background: #eff1f5;
+  border-radius: 5px;
+  margin: 0.5rem;
+}
+.butontwo:hover {
+  background: #3d536b;
+  color: whitesmoke;
+}
+
+.bodycontainer {
+  display: flex;
+  flex-direction: column;
+}

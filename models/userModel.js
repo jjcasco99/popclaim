@@ -6,8 +6,8 @@ const userSchema = new mongoose.Schema({
   tenant: String,
   connection: String,
   email: String,
-  password:String,
-  debug: Boolean
+  password: String,
+  email_verified: false,
 });
 
 // MONGOOSE MODEL

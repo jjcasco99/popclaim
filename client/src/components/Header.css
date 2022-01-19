@@ -1,0 +1,116 @@
+.headerContainer {
+  height: 75rem;
+  left: 0px;
+  top: 0px;
+  padding: 0 2rem 8rem;
+  background-color: #fcfcfc;
+}
+
+#logo img {
+  margin-top: 30px;
+  width: 11rem;
+}
+
+#company {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 60px;
+}
+
+#company img {
+  height: 1em;
+}
+
+.overview h3 {
+  margin-top: 60px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  border: 2px solid #eff1f5;
+  border-radius: 10px;
+  background-color: #eff1f5;
+}
+
+.overview li {
+  font-family: 'Roboto', sans-serif;
+  color: #3d536b;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.overview img {
+  height: 1.2em;
+}
+
+ul input {
+  position: static;
+  width: 16px;
+  height: 16px;
+  left: 0px;
+  top: 4px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 16px;
+}
+
+input:checked {
+  background-color: aqua;
+}
+
+.informs h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 60px;
+}
+.informs img {
+  height: 1.2em;
+  margin-right: 15px;
+}
+
+.informes-hover:hover {
+  font-weight: bold;
+}
+
+.informs li {
+  font-family: 'Roboto', sans-serif;
+  color: #3d536b;
+  margin-top: 15px;
+  list-style-type: none;
+  cursor: pointer;
+}
+a {
+  color: #3d536b;
+  text-decoration: none;
+}
+
+.user-profile h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 20rem;
+}
+
+.user-profile img {
+  height: 1.2em;
+}
+
+.options h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin-top: 60px;
+  cursor: pointer;
+}
+
+.options img {
+  height: 1.2em;
+}
+
+/*-------------------- MEDIA QUERIES --------------------*/
+@media only screen and (max-width: 768px) {
+  .headerContainer {
+    display: none;
+  }
+}

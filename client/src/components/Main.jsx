@@ -1,16 +1,26 @@
-import React from 'react'
-import Login from './Login'
-import Logout from './Logout'
-import Profile from './Profile'
+import React from 'react';
+import Login from './Login';
+import Dashboard from './Dashboard';
+import Informe from './Informe';
+import { Route, Routes } from 'react-router-dom';
+
+import { useAuth0 } from '@auth0/auth0-react';
 
 const Main = () => {
-    return (
-        <div>
-            <Login />
-            <Logout />
-            <Profile />
-        </div>
-    )
-}
+  const { isAuthenticated } = useAuth0();
 
-export default Main
+  return (
+    <div>
+      <Routes>
+        {isAuthenticated ? (
+          <Route path="/" element={<Dashboard />} />
+        ) : (
+          <Route path="/" element={<Login />} />
+        )}
+
+        <Route path="/informe" element={<Informe />} />
+      </Routes>
+    </div>
+  );
+};
+export default Main;
