@@ -12,13 +12,12 @@ const Main = () => {
   return (
     <div>
       <Routes>
-      {isAuthenticated ? (
-         <Route path="/" element={<Dashboard />} />
-        )
-       : (
-        <Route path="/" element={<Login />} />
+        {isAuthenticated ? (
+          <Route path="/" element={<Dashboard />} />
+        ) : (
+          <Route path="/" element={<Login />} />
         )}
-      
+
         <Route path="/informe" element={<Informe />} />
       </Routes>
     </div>

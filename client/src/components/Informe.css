@@ -1,29 +1,14 @@
-body {
-  background-color: #eff1f5;
-}
-
 .cabecera-informe {
+  padding: 2rem 8rem 2rem 2rem;
+  margin: 1.5rem 0;
+}
+
+.cabecera-informe2 {
   display: flex;
-  margin-left: 330px;
-  margin-top: 35px;
-  align-items: center;
-  font-family: 'Roboto', sans-serif;
-}
-
-h2 {
-  margin-left: 20px;
-}
-
-h2 img {
-  margin-bottom: 1.3px;
-}
-
-input[type='submit'] {
-  font-family: 'Roboto', sans-serif;
+  justify-content: space-between;
 }
 
 #download {
-  margin-left: 425px;
   background: #ffb321;
   border: #ffb321;
   border-radius: 20px;
@@ -33,5 +18,9 @@ input[type='submit'] {
 }
 
 .global {
+  display: flex;
+}
+
+.report-flex {
   display: flex;
 }

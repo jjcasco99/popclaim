@@ -6,9 +6,6 @@ import Keywords from './Keywords';
 import Cardlist from './Cardlist';
 import Header from './Header';
 
-// Sustituir esta data por la petición axios:
-import tweets from '../utils/data/csvjson.json';
-
 import { useAuth0 } from '@auth0/auth0-react';
 
 const Dashboard = () => {
@@ -44,13 +41,13 @@ const Dashboard = () => {
               <Keywords />
             </section>
             <section>
-              <Cardlist tweets={tweets} />
+              <Cardlist />
             </section>
           </div>
         </div>
       </div>
     )
-  )
+  );
 };
 
 export default Dashboard;

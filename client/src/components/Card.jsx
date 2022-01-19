@@ -48,6 +48,11 @@ function card({ tweet }) {
               <div className="rightalign">
                 <p className={`${polarity === 1 ? 'positive' : 'negative'}`}>
                   {polarity === 1 ? 'POSITIVO' : 'NEGATIVO'}
+                  {polarity === 1 ? (
+                    <span className="arrow"> &#8593;</span>
+                  ) : (
+                    <span className="arrow"> &#8595;</span>
+                  )}
                 </p>
               </div>
             </div>
