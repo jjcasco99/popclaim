@@ -19,7 +19,7 @@ const Informe = () => {
           <div className="cabecera-informe">
             <div className="cabecera-flex">
               <div className='cabecera-flex2'>
-                <h1>INFORME BASH</h1>
+                <h1>INFORME SAMSUNG</h1>
                 <h2>
                   Año/s 2022 <img src={arrow} alt="" />
                 </h2>

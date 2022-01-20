@@ -6,7 +6,7 @@ import TweetReport from './TweetReport';
 const Report = () => {
   return (
     <section className="rep__container">
-      <h2 className="rep__title">reputación bash</h2>
+      <h2 className="rep__title">reputación samsung</h2>
       <h3 className="rep__subtitle">
         Informe de 14 de enero de 2022 a 20 de enero de 2020
       </h3>
